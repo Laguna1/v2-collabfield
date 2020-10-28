@@ -1,6 +1,8 @@
-require "rails_helper"
+# frozen_string_literal: true
 
-RSpec.feature "Login", :type => :feature do
+require 'rails_helper'
+
+RSpec.feature 'Login', type: :feature do
   let(:user) { create(:user) }
 
   scenario 'user navigates to the login page and succesfully logs in' do
@@ -12,5 +14,4 @@ RSpec.feature "Login", :type => :feature do
     find('.login-button').click
     expect(page).to have_selector('#user-settings')
   end
-
 end
