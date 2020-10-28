@@ -1,3 +1,7 @@
+body {
+  margin-top: 50px;
+ }
+
 nav {
     .navbar-header {
       width: 100%;
@@ -65,8 +69,81 @@ nav {
     a {
       color: white !important;
     }
-  }
+}
 
-  body {
-    margin-top: 50px;
-   }
+.navbar-toggle, .navbar-collapse {
+	border-color: $navbarColor !important;
+	box-shadow: none;
+}
+
+.navbar-brand {
+	margin: 0 0 0 10px !important;
+}
+
+.brand-mobile {
+  font-size: 20px;
+  font-size: 2.0rem;
+}
+
+.pc-menu {
+  margin-right: 10px;
+}
+
+.mobile-menu {
+  i {
+    color: white;
+  }
+  ul {
+    padding: 0px;
+  }
+  a {
+    display: block;
+    padding: 10px 0px 10px 25px !important;
+  }
+  a:hover {
+    background: white !important;
+    color: black !important;
+    i {
+      color: black;
+    }
+  }
+}
+
+.icon-bar {
+  background-color: white !important;
+}
+
+.active a {
+  background: $navbarColor !important;
+  border-bottom: solid 5px white;
+}
+
+.dropdown-toggle, .dropdown-menu {
+  background: $navbarColor !important;
+  border: none;
+}
+
+.dropdown-menu a:hover {
+  color: black !important;
+  background: white !important;
+}
+
+.navigation-items {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.navbar-header {
+  .open {
+    width: 36px;
+  }
+}
+
+.non-user-nav-links {
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  padding-right: 20px;
+}
