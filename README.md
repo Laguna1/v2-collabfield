@@ -4,8 +4,12 @@ https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rail
 
 https://github.com/domagude
 
+![Screen](.app/assets/images/1Scr.png)
+![]()
+![]()
+![]()
 
-
+- Next practice will be with "Instant Messaging"
 
 
 This README would normally document whatever steps are necessary to get the
