@@ -9,7 +9,7 @@ RSpec.feature 'Logout', type: :feature do
     sign_in user
     visit root_path
     find('nav #user-settings').click
-    find('nav a', text: 'Log out').click
-    expect(page).to have_selector('nav a', text: 'Login')
+    find('li #logout', text: 'Log out').click
+    expect(page).to have_text('Find a team member')
   end
 end
