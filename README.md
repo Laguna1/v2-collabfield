@@ -1,5 +1,13 @@
 # README
 
+https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/
+
+https://github.com/domagude
+
+
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
