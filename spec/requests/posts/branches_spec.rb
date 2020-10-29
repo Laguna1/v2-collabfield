@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 include Warden::Test::Helpers
-RSpec.describe "branches", :type => :request do
-
+RSpec.describe 'branches', type: :request do
   shared_examples 'render_templates' do
     it 'renders a hobby template' do
       get '/posts/hobby'
@@ -29,5 +30,4 @@ RSpec.describe "branches", :type => :request do
 
     it_behaves_like 'render_templates'
   end
-
 end

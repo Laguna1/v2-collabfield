@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 include Warden::Test::Helpers
-RSpec.describe "show", :type => :request do
-
+RSpec.describe 'show', type: :request do
   shared_examples 'render_show_template' do
     let(:post) { create(:post) }
     it 'renders a show template' do
@@ -20,5 +21,4 @@ RSpec.describe "show", :type => :request do
 
     it_behaves_like 'render_show_template'
   end
-
 end

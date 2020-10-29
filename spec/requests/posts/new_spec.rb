@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 include Warden::Test::Helpers
-RSpec.describe "new", :type => :request do
-
+RSpec.describe 'new', type: :request do
   context 'non-signed in user' do
     it 'redirects to a root path' do
       get '/posts/new'
@@ -18,5 +19,4 @@ RSpec.describe "new", :type => :request do
       expect(response).to render_template(:new)
     end
   end
-
 end
