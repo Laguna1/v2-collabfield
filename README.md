@@ -1,35 +1,7 @@
-# README
+- At the moment 38 tests passed/2 tests failed
+- Problem with  spec/helpers/post_helper_spec
 
-https://www.freecodecamp.org/news/lets-create-an-intermediate-level-ruby-on-rails-application-d7c6e997c63f/
-
-https://github.com/domagude
-
-![Screen](app/assets/images/1Scr.png)
-![Screen](app/assets/images/2Scr.png)
-![Screen](app/assets/images/3Scr.png)
-
-- Next practice will be with "Instant Messaging"
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+PostsHelper
+#no_posts_partial_path
+    returns a no_posts partial's path (FAILED - 1)
+    returns an empty partial's path (FAILED - 2)
